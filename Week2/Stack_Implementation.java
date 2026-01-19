@@ -1,11 +1,11 @@
 import java.util.*;
-public class Stack {
+public class Stack_Implementation {
   private int[] arr;
   private int size = 0;
-  public Stack() {//default consructor
+  public Stack_Implementation() {//default consructor
     arr = new int[10];//by default stack size is 10
   }
-  public Stack(int n) {
+  public Stack_Implementation(int n) {
     arr = new int[n];
   }
   public void push(int val) throws Exception{
@@ -37,7 +37,7 @@ public class Stack {
   }
   public static void main(String[] args) throws Exception{
     Scanner sc = new Scanner(System.in);
-    Stack st = new Stack(20);
+    Stack_Implementation st = new Stack_Implementation(20);
     st.push(10);
     st.push(20);
     st.push(30);
