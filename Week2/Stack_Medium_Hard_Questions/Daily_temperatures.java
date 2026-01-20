@@ -1,4 +1,4 @@
-package Stack_Basic_Questions;
+package Stack_Medium_Hard_Questions;
 
 import java.util.Scanner;
 import java.util.Stack;
