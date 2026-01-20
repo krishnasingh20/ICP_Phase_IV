@@ -1,3 +1,5 @@
+package Stack_Basic_Questions;
+
 import java.util.Scanner;
 
 public class Remove_Outermost_Parentheses {
